@@ -69,7 +69,7 @@ def all_supplies_in_holidays(holiday_hash)
     holidays.each do |holiday, supplies_for|
       print "\t#{holiday.to_s.capitalize}:"
       supplies_for.each_index do |supply|
-        if supply == supplies_for.last
+        if supply == supplies_for[supplies_for.length - 1]
           print " #{supplies_for[supply]}\n"
         else
           print " #{supplies_for[supply]},"
