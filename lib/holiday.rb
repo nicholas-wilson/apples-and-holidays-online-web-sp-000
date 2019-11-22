@@ -68,7 +68,7 @@ def all_supplies_in_holidays(holiday_hash)
     puts "#{season.capitalize}:"
     holidays.each do |holiday, supplies_for|
       holiday_name = ""
-      
+
       if holiday == :new_years
         holiday_name = "New Years"
       elsif holiday == :fourth_of_july
@@ -78,7 +78,7 @@ def all_supplies_in_holidays(holiday_hash)
       else
         holiday_name = holiday.capitalize
       end
-      
+
       holiday_string = "  #{holiday_name}:"
       supplies_for.each_index do |supply|
         if supply == supplies_for.length - 1
