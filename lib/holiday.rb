@@ -72,7 +72,7 @@ def all_supplies_in_holidays(holiday_hash)
       if holiday == :new_years
         holiday_name = "New Years"
       elsif holiday == :fourth_of_july
-        holiday_name = "Fourth of July"
+        holiday_name = "Fourth Of July"
       elsif holiday == :memorial_day
         holiday_name = "Memorial Day"
       else
