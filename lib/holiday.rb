@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
       print "\t#{holiday}:"
       supplies_for.each_index do |supply|
         if supply == supplies_for.last
-          print " #{supply}"
+          print " #{supply}\n"
         else
           print " #{supply},"
         end
