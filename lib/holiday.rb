@@ -70,7 +70,7 @@ def all_supplies_in_holidays(holiday_hash)
       holiday_string = "  #{holiday.capitalize}:"
       supplies_for.each_index do |supply|
         if supply == supplies_for.length - 1
-          holiday_string += " #{supplies_for[supply]}\n"
+          holiday_string += " #{supplies_for[supply]}"
         else
           holiday_string += " #{supplies_for[supply]},"
         end
